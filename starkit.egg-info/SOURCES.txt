@@ -1,0 +1,8 @@
+LICENSE.md
+README.rst
+setup.py
+src/starkit.c
+starkit.egg-info/PKG-INFO
+starkit.egg-info/SOURCES.txt
+starkit.egg-info/dependency_links.txt
+starkit.egg-info/top_level.txt

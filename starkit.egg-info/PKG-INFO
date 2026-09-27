@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: starkit
+Version: 0.0.3
+Summary: Python module for soccer humanoid robot
+Home-page: https://elsiros.org/
+Author: Babaev Azer Kahraman Ogly
+Author-email: 7684067@mail.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+===========================
+Welcome to starkit module
+===========================
+
+Installation
+============
+Install latest version from `PyPI`_:
+
+type following text in cms window
+
+$ pip install -i https://test.pypi.org/simple/ starkit
+
+Basic usage
+===========
+
+ Import the module
+ import starkit
+
+Methods
+===========
+alpha_calculation(xt, yt, zt, x, y, z, w, sizes, limAlpha)
+
+where:
+
+sizes = [ a5, b5, c5, a6, a7, a8, a9, a10, b10, c10 ]
+
+a5 - distance between axis of symmetry and axis of servo drive number 5 (mm)
+b5 - distance between axis of servo drives в„–5 and #6 in horizontal plane (mm)
+c5 - distance between axis of servo drive в„–6 and origin point of Z axis (mm)
+a6 - distance between axis of servo drives в„–6 and в„–7 (mm)
+a7 - distance between axis of servo drives в„–7 and в„–8 (mm)
+a8 - distance between axis of servo drives в„–8 and в„–9 (mm)
+a9 - distance between axis of servo drives в„–9 and в„–10 (mm)
+a10 - distance between axis of servo drive в„–10 and foot in horizontall plane (mm)
+b10 - distance between axis of servo drive в„–10 and foot (mm)
+c10 - distance between axis of servo drives в„–6 and в„–10 in horizontal plane (mm)
+
+xt, yt, zt, x, y, z, w may be double or long types
+sizes - list of sizes in robot's body
+limAlpha
+
+usage 
+
+starkit.alpha_calculation(xt, yt, zt, x, y, z, w, sizes, limAlpha)
+

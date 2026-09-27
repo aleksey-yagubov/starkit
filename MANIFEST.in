@@ -1,0 +1,3 @@
+include LICENSE.md README.md TEST_RESULTS.md
+recursive-include tests *.py
+recursive-include tools *.py
